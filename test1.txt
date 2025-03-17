@@ -27,3 +27,4 @@ sfift + insert
 
 git add . 명령어시 LF will be replaced by CRLF the next time Git touches it 오류날 경우
 git config core.autocrlf true
+123
