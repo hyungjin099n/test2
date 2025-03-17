@@ -1,0 +1,29 @@
+pc에 저장된 기존 git 사용자 정보 삭제
+git config --global --unset credential.helper
+git config --system --unset credential.helper
+
+git config --global user.email hyungjin099@naver.com
+git config --global user.email hyungjin099n
+
+git init
+git branch -m main
+git add .
+git commit
+git remote add origin https://github.com/hyungjin099n/fe_test.git
+git push origin main
+
+git branch dev
+git checkout dev
+git push origin dev
+dev를 default branch로 변경
+
+팀원
+폴더생성
+git clone -b dev http .
+
+git branch -d 브랜치 이름
+
+sfift + insert
+
+git add . 명령어시 LF will be replaced by CRLF the next time Git touches it 오류날 경우
+git config core.autocrlf true
